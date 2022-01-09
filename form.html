@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <style>
+            form{
+                background: burlywood;
+                padding: 30px;
+            }
+            h1{
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-weight: bolder;
+                color:brown;
+            }
+            h2{
+                font-style: unset;
+                font-weight: 900;
+                color: black;
+                background-color: bisque;
+            }
+            p{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+        </style>
+    </head>
+    <title>form making</title>
+    <body>
+        <form>
+            <h1>Registration Form</h1>
+            <h2>Personal information</h2>
+            <p>name: <input type="text" name ="name" required></p>
+            <fieldset>
+                <legend>gender</legend>
+                <p>
+                    male:<input type="radio" name="gender"required >
+                    female:<input type="radio" name="gender"required>
+                    others:<input type="radio" name="gender"required> 
+                </p>
+            </fieldset>
+            <p>address :<textarea name="address" rows="10" cols="50"></textarea></p>
+            <p>Email: <input type="email" name="email"></p>
+            <p>pincode: <input type="number" name="pincode"></p>
+            <hr>
+            <h2>College information</h2>
+            <P>cllg name
+                <select name ="cllg name" required>
+                    <option value="">--select cllg name--</option>
+                    <option value="IGDTUW">IGDTUW>
+                    <option value="DTU">DTU</option>
+                    <option value="NSUT">NSUT</option>
+                    <option value="IITD">IITD</option>
+                    <option value="IIIT">IIIT</option>
+                    <option value="IPU">IPU</option>
+
+                </select>
+
+          <p>Branch: <input type="text" name="Branch" required></p>
+          <p>year: <input type="number" name="year"></p>
+          <p>Enrollment number:<input type="number" name="enrollment number" required></p>
+           <hr>
+           <h2>Details</h2>
+           <p>What are your strengths and weakness? <textarea name="snw" rows="10" cols="50"></textarea></p>
+           <p>Why do you want to join innerve? <textarea name="innerve" rows="10" cols="50"></textarea></p>
+           <p>
+               Head-cord:<input type="radio" name="position" required>
+               associate:<input type="radio" name="position" required>
+               Core:<input type="radio" name="position" required>
+            </p>
+            <P>society name--
+                <select name ="society name" required>
+                    <option value="">--select name--</option>
+                    <option value="HR">HR</option>
+                    <option value="PR">PR</option>
+                    <option value="WEBDEV">WEBDEV</option>
+                    <option value="SPONCERSHIP">SPONCERSHIP</option>
+                    <option value="INFORMAL">INFORMAL</option>
+                    <option value="CSE/IT">CSE/IT</option>
+                    <option value="ECE">ECE</option>
+                    <option value="MECHANICAL">MECHANICAL</option>
+                    <option value="MEDIA">MEDIA</option>
+
+                </select>
+            <hr>
+            <input type="submit" name="submit">
+               
+        </form>
+    </body>
+    
+</html>
